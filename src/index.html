@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="quiz-container">
+
+        <!-- Pantalla inicial -->
+        <section id="start-screen">
+            <h1 id="quiz-title">Quiz</h1>
+
+            <button id="start-btn">
+                Empezar
+            </button>
+        </section>
+
+
+        <!-- Pantalla del quiz -->
+        <section id="quiz-screen" class="hidden">
+
+            <div class="quiz-header">
+                <span id="question-number"></span>
+                <span id="score"></span>
+            </div>
+
+            <h2 id="question"></h2>
+
+            <div id="options"></div>
+
+            <button id="next-btn" class="hidden">
+                Continuar
+            </button>
+
+            <button id="finish-btn">
+                Finalizar quiz
+            </button>
+
+        </section>
+
+
+        <!-- Pantalla final -->
+        <section id="result-screen" class="hidden">
+
+            <h1>Resultado</h1>
+
+            <div class="result-summary">
+                <p>Preguntas respondidas:<strong id="total-questions"></strong></p>
+                <p>Correctas: <strong id="correct-answers"></strong></p>
+                <p>Incorrectas: <strong id="wrong-answers"></strong></p>
+                <p>Porcentaje: <strong id="percentage"></strong>%</p>
+                <p>Preguntas sin responder:<strong id="unanswered-questions"></strong></p>
+            </div>
+
+            <h2>Preguntas incorrectas</h2>
+
+            <div id="wrong-list"></div>
+
+            <button id="restart-btn">
+                Volver a intentar
+            </button>
+
+        </section>
+
+        <!-- Créditos y versión -->
+        <footer class="quiz-footer">
+            v1.0.0 | Created by Darien Romero with AI assistance
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial, sans-serif;
+
+    background: #f2f2f2;
+}
+
+.quiz-container {
+    width: 90%;
+    max-width: 700px;
+
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 12px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+/* Elementos generales */
+.hidden {
+    display: none;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+
+    padding: 12px 20px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+
+/* Inicio */
+
+#start-screen {
+    text-align: center;
+}
+
+#quiz-title {
+    margin-bottom: 30px;
+}
+
+#start-btn,
+#next-btn,
+#restart-btn {
+    background: #333;
+    color: white;
+}
+
+#start-btn:hover,
+#next-btn:hover,
+#restart-btn:hover {
+    background: #555;
+}
+
+
+/* Quiz */
+
+.quiz-header {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 25px;
+
+    color: #666;
+}
+
+#question {
+    margin-bottom: 25px;
+}
+
+
+/* Opciones */
+
+#options {
+    display: flex;
+    flex-direction: column;
+
+    gap: 12px;
+}
+
+.option {
+    width: 100%;
+
+    padding: 15px;
+
+    text-align: left;
+
+    background: #eee;
+
+    border: 2px solid transparent;
+
+    transition: 0.2s;
+}
+
+.option:hover:not(:disabled) {
+    background: #ddd;
+}
+
+
+/* Respuesta correcta */
+
+.option.correct {
+    background: #c8f7d0;
+    border-color: #28a745;
+}
+
+
+/* Respuesta incorrecta */
+
+.option.wrong {
+    background: #f7c8c8;
+    border-color: #dc3545;
+}
+
+
+/* Deshabilitar */
+
+.option:disabled {
+    cursor: default;
+}
+
+
+/* Botón continuar */
+
+#next-btn {
+    margin-top: 25px;
+}
+
+
+/* Resultados */
+
+.result-summary {
+    margin: 25px 0;
+}
+
+#wrong-list {
+    margin-top: 20px;
+}
+
+.wrong-question {
+    padding: 15px;
+    margin-bottom: 12px;
+
+    background: #f8f8f8;
+
+    border-left: 4px solid #dc3545;
+
+    border-radius: 5px;
+}
+
+.wrong-question p {
+    margin: 5px 0;
+}
+
+.correct-answer {
+    color: #198754;
+    font-weight: bold;
+}
+
+.user-answer {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+#restart-btn {
+    margin-top: 20px;
+}
+
+#next-btn,
+#finish-btn {
+    margin-top: 25px;
+}
+
+#finish-btn {
+    margin-left: 10px;
+    background: #777;
+    color: white;
+}
+
+#finish-btn:hover {
+    background: #555;
+}
+
+.quiz-footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 13px;
+    color: #888;
+}
