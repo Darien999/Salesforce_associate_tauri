@@ -1,25 +1,32 @@
-name: Build Associate Quiz
+name: Build and Release Associate Quiz
 
 on:
   push:
-    branches:
-      - main
+    tags:
+      - "v*"
+
   workflow_dispatch:
 
 jobs:
   build:
     strategy:
       fail-fast: false
+
       matrix:
         include:
           - platform: macos-latest
             artifact: macos
+
           - platform: windows-latest
             artifact: windows
+
           - platform: ubuntu-22.04
             artifact: linux
 
     runs-on: ${{ matrix.platform }}
+
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout
@@ -42,37 +49,29 @@ jobs:
             libwebkit2gtk-4.1-dev \
             libappindicator3-dev \
             librsvg2-dev \
-            patchelf
+            patchelf \
+            xdg-utils
 
-      - name: Build Tauri application
+      - name: Build and release Tauri application
         uses: tauri-apps/tauri-action@v0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Upload macOS
-        if: matrix.platform == 'macos-latest'
-        uses: actions/upload-artifact@v4
         with:
-          name: associate-quiz-macos
-          path: |
-            src-tauri/target/release/bundle/dmg/*.dmg
-            src-tauri/target/release/bundle/macos/*.app
+          tagName: ${{ github.ref_name }}
+          releaseName: "Associate Quiz ${{ github.ref_name }}"
+          releaseBody: |
+            ## Associate Quiz ${{ github.ref_name }}
 
-      - name: Upload Windows
-        if: matrix.platform == 'windows-latest'
-        uses: actions/upload-artifact@v4
-        with:
-          name: associate-quiz-windows
-          path: |
-            src-tauri/target/release/bundle/msi/*.msi
-            src-tauri/target/release/bundle/nsis/*.exe
+            Aplicación de estudio para practicar preguntas.
 
-      - name: Upload Linux
-        if: matrix.platform == 'ubuntu-22.04'
-        uses: actions/upload-artifact@v4
-        with:
-          name: associate-quiz-linux
-          path: |
-            src-tauri/target/release/bundle/deb/*.deb
-            src-tauri/target/release/bundle/rpm/*.rpm
-            src-tauri/target/release/bundle/appimage/*.AppImage
+            ### Descargas
+
+            - macOS: archivo `.dmg`
+            - Windows: archivos `.msi` / `.exe`
+            - Linux: archivos `.deb` / `.rpm` / `.AppImage`
+
+            Selecciona el archivo correspondiente a tu sistema operativo.
+
+          releaseDraft: false
+          prerelease: false
