@@ -6,650 +6,2060 @@
     {
       "Q": "What is Salesforce?",
       "opciones": [
-        { "A": "An operating system", "R": false },
-        { "B": "A cloud-based CRM platform", "R": true },
-        { "C": "A programming language", "R": false },
-        { "D": "A local database", "R": false }
+        {
+          "A": "An operating system",
+          "R": false
+        },
+        {
+          "B": "A cloud-based CRM platform",
+          "R": true
+        },
+        {
+          "C": "A programming language",
+          "R": false
+        },
+        {
+          "D": "A local database",
+          "R": false
+        }
       ]
     },
     {
       "Q": "Which cloud computing service model does Salesforce primarily offer?",
       "opciones": [
-        { "A": "SaaS (Software as a Service)", "R": true },
-        { "B": "IaaS (Infrastructure as a Service)", "R": false },
-        { "C": "Software installed on your computer", "R": false },
-        { "D": "Hardware as a Service", "R": false }
+        {
+          "A": "SaaS (Software as a Service)",
+          "R": true
+        },
+        {
+          "B": "IaaS (Infrastructure as a Service)",
+          "R": false
+        },
+        {
+          "C": "Software installed on your computer",
+          "R": false
+        },
+        {
+          "D": "Hardware as a Service",
+          "R": false
+        }
       ]
     },
     {
       "Q": "What does CRM stand for?",
       "opciones": [
-        { "A": "Customer Resource Manager", "R": false },
-        { "B": "Company Revenue Model", "R": false },
-        { "C": "Customer Relationship Management", "R": true },
-        { "D": "Central Record Management", "R": false }
+        {
+          "A": "Customer Resource Manager",
+          "R": false
+        },
+        {
+          "B": "Company Revenue Model",
+          "R": false
+        },
+        {
+          "C": "Customer Relationship Management",
+          "R": true
+        },
+        {
+          "D": "Central Record Management",
+          "R": false
+        }
       ]
     },
     {
       "Q": "What is a Lead?",
       "opciones": [
-        { "A": "A customer who has already purchased several times", "R": false },
-        { "B": "A person or company showing interest but not yet qualified", "R": true },
-        { "C": "A Salesforce employee", "R": false },
-        { "D": "A sales report", "R": false }
+        {
+          "A": "A customer who has already purchased several times",
+          "R": false
+        },
+        {
+          "B": "A person or company showing interest but not yet qualified",
+          "R": true
+        },
+        {
+          "C": "A Salesforce employee",
+          "R": false
+        },
+        {
+          "D": "A sales report",
+          "R": false
+        }
       ]
     },
     {
       "Q": "When you convert a Lead, which records can be created?",
       "opciones": [
-        { "A": "Only a Case", "R": false },
-        { "B": "Only a Dashboard", "R": false },
-        { "C": "A Report and a Flow", "R": false },
-        { "D": "Account, Contact, and Opportunity", "R": true }
+        {
+          "A": "Only a Case",
+          "R": false
+        },
+        {
+          "B": "Only a Dashboard",
+          "R": false
+        },
+        {
+          "C": "A Report and a Flow",
+          "R": false
+        },
+        {
+          "D": "Account, Contact, and Opportunity",
+          "R": true
+        }
       ]
     },
     {
       "Q": "What does an Account represent?",
       "opciones": [
-        { "A": "A company or organization you do business with", "R": true },
-        { "B": "The user who logs in", "R": false },
-        { "C": "A bank account", "R": false },
-        { "D": "A type of license", "R": false }
+        {
+          "A": "A company or organization you do business with",
+          "R": true
+        },
+        {
+          "B": "The user who logs in",
+          "R": false
+        },
+        {
+          "C": "A bank account",
+          "R": false
+        },
+        {
+          "D": "A type of license",
+          "R": false
+        }
       ]
     },
     {
       "Q": "What is an Opportunity?",
       "opciones": [
-        { "A": "A problem reported by a customer", "R": false },
-        { "B": "A potential sale or deal in progress", "R": true },
-        { "C": "An email campaign", "R": false },
-        { "D": "A user permission", "R": false }
+        {
+          "A": "A problem reported by a customer",
+          "R": false
+        },
+        {
+          "B": "A potential sale or deal in progress",
+          "R": true
+        },
+        {
+          "C": "An email campaign",
+          "R": false
+        },
+        {
+          "D": "A user permission",
+          "R": false
+        }
       ]
     },
     {
       "Q": "What is a Case in Salesforce?",
       "opciones": [
-        { "A": "A deal about to close", "R": false },
-        { "B": "A product in the catalog", "R": false },
-        { "C": "A customer's question, issue, or request", "R": true },
-        { "D": "A validation rule", "R": false }
+        {
+          "A": "A deal about to close",
+          "R": false
+        },
+        {
+          "B": "A product in the catalog",
+          "R": false
+        },
+        {
+          "C": "A customer's question, issue, or request",
+          "R": true
+        },
+        {
+          "D": "A validation rule",
+          "R": false
+        }
       ]
     },
     {
       "Q": "Which Salesforce cloud focuses on managing the sales process?",
       "opciones": [
-        { "A": "Service Cloud", "R": false },
-        { "B": "Sales Cloud", "R": true },
-        { "C": "Marketing Cloud", "R": false },
-        { "D": "Commerce Cloud", "R": false }
+        {
+          "A": "Service Cloud",
+          "R": false
+        },
+        {
+          "B": "Sales Cloud",
+          "R": true
+        },
+        {
+          "C": "Marketing Cloud",
+          "R": false
+        },
+        {
+          "D": "Commerce Cloud",
+          "R": false
+        }
       ]
     },
     {
       "Q": "Which cloud is designed for customer support and service?",
       "opciones": [
-        { "A": "Service Cloud", "R": true },
-        { "B": "Sales Cloud", "R": false },
-        { "C": "Commerce Cloud", "R": false },
-        { "D": "Analytics Cloud", "R": false }
+        {
+          "A": "Service Cloud",
+          "R": true
+        },
+        {
+          "B": "Sales Cloud",
+          "R": false
+        },
+        {
+          "C": "Commerce Cloud",
+          "R": false
+        },
+        {
+          "D": "Analytics Cloud",
+          "R": false
+        }
       ]
     },
     {
       "Q": "Which cloud is used for digital marketing campaigns and customer journeys (email, journeys)?",
       "opciones": [
-        { "A": "Service Cloud", "R": false },
-        { "B": "Sales Cloud", "R": false },
-        { "C": "Marketing Cloud", "R": true },
-        { "D": "Experience Cloud", "R": false }
+        {
+          "A": "Service Cloud",
+          "R": false
+        },
+        {
+          "B": "Sales Cloud",
+          "R": false
+        },
+        {
+          "C": "Marketing Cloud",
+          "R": true
+        },
+        {
+          "D": "Experience Cloud",
+          "R": false
+        }
       ]
     },
     {
       "Q": "Which cloud lets you build e-commerce storefronts?",
       "opciones": [
-        { "A": "Marketing Cloud", "R": false },
-        { "B": "Service Cloud", "R": false },
-        { "C": "Sales Cloud", "R": false },
-        { "D": "Commerce Cloud", "R": true }
+        {
+          "A": "Marketing Cloud",
+          "R": false
+        },
+        {
+          "B": "Service Cloud",
+          "R": false
+        },
+        {
+          "C": "Sales Cloud",
+          "R": false
+        },
+        {
+          "D": "Commerce Cloud",
+          "R": true
+        }
       ]
     },
     {
       "Q": "What is the difference between a Report and a Dashboard?",
       "opciones": [
-        { "A": "A report lists and summarizes data; a dashboard displays it visually with charts", "R": true },
-        { "B": "They are exactly the same", "R": false },
-        { "C": "A dashboard creates records; a report deletes them", "R": false },
-        { "D": "A report is only available on mobile", "R": false }
+        {
+          "A": "A report lists and summarizes data; a dashboard displays it visually with charts",
+          "R": true
+        },
+        {
+          "B": "They are exactly the same",
+          "R": false
+        },
+        {
+          "C": "A dashboard creates records; a report deletes them",
+          "R": false
+        },
+        {
+          "D": "A report is only available on mobile",
+          "R": false
+        }
       ]
     },
     {
       "Q": "What does a user Profile define?",
       "opciones": [
-        { "A": "The user's photo", "R": false },
-        { "B": "Basic permissions: what the user can see and do", "R": true },
-        { "C": "The organization's language", "R": false },
-        { "D": "The billing plan", "R": false }
+        {
+          "A": "The user's photo",
+          "R": false
+        },
+        {
+          "B": "Basic permissions: what the user can see and do",
+          "R": true
+        },
+        {
+          "C": "The organization's language",
+          "R": false
+        },
+        {
+          "D": "The billing plan",
+          "R": false
+        }
       ]
     },
     {
       "Q": "What is a Custom Object used for?",
       "opciones": [
-        { "A": "To change the Salesforce logo", "R": false },
-        { "B": "To store business-specific data that standard objects don't cover", "R": true },
-        { "C": "To create users", "R": false },
-        { "D": "To send mass emails", "R": false }
+        {
+          "A": "To change the Salesforce logo",
+          "R": false
+        },
+        {
+          "B": "To store business-specific data that standard objects don't cover",
+          "R": true
+        },
+        {
+          "C": "To create users",
+          "R": false
+        },
+        {
+          "D": "To send mass emails",
+          "R": false
+        }
       ]
     },
     {
       "Q": "Which field type lets users choose a value from a predefined list?",
       "opciones": [
-        { "A": "Picklist", "R": true },
-        { "B": "Text Area", "R": false },
-        { "C": "Formula", "R": false },
-        { "D": "Checkbox", "R": false }
+        {
+          "A": "Picklist",
+          "R": true
+        },
+        {
+          "B": "Text Area",
+          "R": false
+        },
+        {
+          "C": "Formula",
+          "R": false
+        },
+        {
+          "D": "Checkbox",
+          "R": false
+        }
       ]
     },
     {
       "Q": "Which tool lets you automate processes with clicks, without code?",
       "opciones": [
-        { "A": "Apex", "R": false },
-        { "B": "Visualforce", "R": false },
-        { "C": "Flow Builder", "R": true },
-        { "D": "SOQL", "R": false }
+        {
+          "A": "Apex",
+          "R": false
+        },
+        {
+          "B": "Visualforce",
+          "R": false
+        },
+        {
+          "C": "Flow Builder",
+          "R": true
+        },
+        {
+          "D": "SOQL",
+          "R": false
+        }
       ]
     },
     {
       "Q": "What is AppExchange?",
       "opciones": [
-        { "A": "A marketplace of apps and components for Salesforce", "R": true },
-        { "B": "A type of report", "R": false },
-        { "C": "An email server", "R": false },
-        { "D": "A type of object", "R": false }
+        {
+          "A": "A marketplace of apps and components for Salesforce",
+          "R": true
+        },
+        {
+          "B": "A type of report",
+          "R": false
+        },
+        {
+          "C": "An email server",
+          "R": false
+        },
+        {
+          "D": "A type of object",
+          "R": false
+        }
       ]
     },
     {
       "Q": "What is Trailhead?",
       "opciones": [
-        { "A": "A CRM for small businesses", "R": false },
-        { "B": "A free Salesforce learning platform", "R": true },
-        { "C": "A type of license", "R": false },
-        { "D": "A reporting tool", "R": false }
+        {
+          "A": "A CRM for small businesses",
+          "R": false
+        },
+        {
+          "B": "A free Salesforce learning platform",
+          "R": true
+        },
+        {
+          "C": "A type of license",
+          "R": false
+        },
+        {
+          "D": "A reporting tool",
+          "R": false
+        }
       ]
     },
     {
       "Q": "What does it mean that Salesforce is multi-tenant?",
       "opciones": [
-        { "A": "Each customer has its own physical server", "R": false },
-        { "B": "Only one company can use it at a time", "R": false },
-        { "C": "It must be installed on every computer", "R": false },
-        { "D": "Multiple customers share infrastructure, but their data stays isolated", "R": true }
+        {
+          "A": "Each customer has its own physical server",
+          "R": false
+        },
+        {
+          "B": "Only one company can use it at a time",
+          "R": false
+        },
+        {
+          "C": "It must be installed on every computer",
+          "R": false
+        },
+        {
+          "D": "Multiple customers share infrastructure, but their data stays isolated",
+          "R": true
+        }
       ]
     },
     {
       "Q": "What is a Sandbox used for?",
       "opciones": [
-        { "A": "Testing changes and developing without affecting production", "R": true },
-        { "B": "Deleting production data", "R": false },
-        { "C": "Billing customers", "R": false },
-        { "D": "Creating campaigns", "R": false }
+        {
+          "A": "Testing changes and developing without affecting production",
+          "R": true
+        },
+        {
+          "B": "Deleting production data",
+          "R": false
+        },
+        {
+          "C": "Billing customers",
+          "R": false
+        },
+        {
+          "D": "Creating campaigns",
+          "R": false
+        }
       ]
     },
     {
       "Q": "What is Customer 360?",
       "opciones": [
-        { "A": "A camera for events", "R": false },
-        { "B": "A set of Salesforce apps and data that provides a single view of the customer", "R": true },
-        { "C": "A type of report", "R": false },
-        { "D": "A Trailhead certificate", "R": false }
+        {
+          "A": "A camera for events",
+          "R": false
+        },
+        {
+          "B": "A set of Salesforce apps and data that provides a single view of the customer",
+          "R": true
+        },
+        {
+          "C": "A type of report",
+          "R": false
+        },
+        {
+          "D": "A Trailhead certificate",
+          "R": false
+        }
       ]
     },
     {
       "Q": "What are Organization-Wide Defaults (OWD)?",
       "opciones": [
-        { "A": "The interface colors", "R": false },
-        { "B": "The available languages", "R": false },
-        { "C": "The baseline level of record access for each object", "R": true },
-        { "D": "The company's licenses", "R": false }
+        {
+          "A": "The interface colors",
+          "R": false
+        },
+        {
+          "B": "The available languages",
+          "R": false
+        },
+        {
+          "C": "The baseline level of record access for each object",
+          "R": true
+        },
+        {
+          "D": "The company's licenses",
+          "R": false
+        }
       ]
     },
     {
       "Q": "How many major Salesforce releases are there per year?",
       "opciones": [
-        { "A": "One", "R": false },
-        { "B": "Three", "R": true },
-        { "C": "Twelve", "R": false },
-        { "D": "None, it's fixed", "R": false }
+        {
+          "A": "One",
+          "R": false
+        },
+        {
+          "B": "Three",
+          "R": true
+        },
+        {
+          "C": "Twelve",
+          "R": false
+        },
+        {
+          "D": "None, it's fixed",
+          "R": false
+        }
       ]
     },
     {
       "Q": "What is Einstein in Salesforce?",
       "opciones": [
-        { "A": "A type of object", "R": false },
-        { "B": "A pricing plan", "R": false },
-        { "C": "A type of field", "R": false },
-        { "D": "The artificial intelligence layer of the platform", "R": true }
-      ]
-    },
-    {
-      "Q": "What is the role of Salesforce Trust AI principles in the context of CRM systems?",
-      "opciones": [
-        { "A": "Guiding ethical and responsible use of AI", "R": true },
-        { "B": "Providing a framework for AI data model accuracy", "R": false },
-        { "C": "Outlining the technical specifications for AI integration", "R": false },
-        { "D": "Automating database maintenance without manual intervention", "R": false }
-      ]
-    },
-    {
-      "Q": "Following Salesforce's Trusted AI Principle of Transparency, which information should be accessible on the Salesforce Platform when a customer is confused about an Einstein Prediction?",
-      "opciones": [
-        { "A": "An explanation of how Prediction Builder works and a link to Salesforce's Trusted AI Principles", "R": false },
-        { "B": "An explanation of the prediction's rationale and a model card that describes how the model was created", "R": true },
-        { "C": "A marketing article of the product that clearly outlines the product's capabilities and features", "R": false },
-        { "D": "The complete encrypted raw database used to train all global models", "R": false }
-      ]
-    },
-    {
-      "Q": "What should be done to prevent bias from entering an AI system when training it?",
-      "opciones": [
-        { "A": "Use alternative assumptions", "R": false },
-        { "B": "Import diverse training data", "R": true },
-        { "C": "Include Proxy variables", "R": false },
-        { "D": "Limit data collection to a single customer segment", "R": false }
+        {
+          "A": "A type of object",
+          "R": false
+        },
+        {
+          "B": "A pricing plan",
+          "R": false
+        },
+        {
+          "C": "A type of field",
+          "R": false
+        },
+        {
+          "D": "The artificial intelligence layer of the platform",
+          "R": true
+        }
       ]
     },
     {
       "Q": "What is a key component of a data management strategy?",
       "opciones": [
-        { "A": "Naming Convention", "R": false },
-        { "B": "Data Backup", "R": true },
-        { "C": "Color Coding", "R": false },
-        { "D": "Automated social media posting", "R": false }
-      ]
-    },
-    {
-      "Q": "Cloud Kicks plans to use automated chat as its primary support channel. Which Einstein feature should they use?",
-      "opciones": [
-        { "A": "Discovery", "R": false },
-        { "B": "Bots", "R": true },
-        { "C": "Next Best Action", "R": false },
-        { "D": "Prediction Builder", "R": false }
-      ]
-    },
-    {
-      "Q": "Which field of AI is most suitable for implementing a website chatbot that deflects cases by answering frequently asked questions?",
-      "opciones": [
-        { "A": "Natural language processing", "R": true },
-        { "B": "Computer vision", "R": false },
-        { "C": "Predictive analytics", "R": false },
-        { "D": "Robotic process automation", "R": false }
-      ]
-    },
-    {
-      "Q": "To avoid introducing unintended bias to an AI model, which type of data should be omitted?",
-      "opciones": [
-        { "A": "Transactional", "R": false },
-        { "B": "Engagement", "R": false },
-        { "C": "Demographic", "R": true },
-        { "D": "Behavioral", "R": false }
-      ]
-    },
-    {
-      "Q": "In the context of Salesforce's Trusted AI Principles, what does the principle of Empowerment primarily aim to achieve?",
-      "opciones": [
-        { "A": "Empower users of all skill levels to build AI applications with clicks, not code", "R": true },
-        { "B": "Empower users to contribute to the growing body of knowledge of leading AI research", "R": false },
-        { "C": "Empower users to solve challenging technical problems using neural networks", "R": false },
-        { "D": "Empower users to grant system administrator rights automatically", "R": false }
+        {
+          "A": "Naming Convention",
+          "R": false
+        },
+        {
+          "B": "Data Backup",
+          "R": true
+        },
+        {
+          "C": "Color Coding",
+          "R": false
+        },
+        {
+          "D": "Automated social media posting",
+          "R": false
+        }
       ]
     },
     {
       "Q": "Which feature should be used to ensure multiple records for the same customer are removed or prevented in Salesforce?",
       "opciones": [
-        { "A": "Duplicate management", "R": true },
-        { "B": "Trigger deletion of old records", "R": false },
-        { "C": "Standardized field names", "R": false },
-        { "D": "Workflow Rules", "R": false }
-      ]
-    },
-    {
-      "Q": "Which action should be taken to develop and implement trusted generative AI with Salesforce's safety guidelines in mind?",
-      "opciones": [
-        { "A": "Develop right-sized models to reduce our carbon footprint", "R": false },
-        { "B": "Create guardrails that mitigate toxicity and protect PII", "R": true },
-        { "C": "Be transparent when AI has created and automatically delivered content", "R": false },
-        { "D": "Bypass user authentication during API requests", "R": false }
+        {
+          "A": "Duplicate management",
+          "R": true
+        },
+        {
+          "B": "Trigger deletion of old records",
+          "R": false
+        },
+        {
+          "C": "Standardized field names",
+          "R": false
+        },
+        {
+          "D": "Workflow Rules",
+          "R": false
+        }
       ]
     },
     {
       "Q": "A product recommendation feature recommends shoes of a given color based solely on past purchases, ignoring other factors. Which type of bias is encountered?",
       "opciones": [
-        { "A": "Confirmation", "R": true },
-        { "B": "Survivorship", "R": false },
-        { "C": "Societal", "R": false },
-        { "D": "Selection", "R": false }
-      ]
-    },
-    {
-      "Q": "A consultant conducts Consequence Scanning workshops to support testing diverse datasets. Which Salesforce Trusted AI Principle is being practiced?",
-      "opciones": [
-        { "A": "Transparency", "R": false },
-        { "B": "Inclusivity", "R": true },
-        { "C": "Accountability", "R": false },
-        { "D": "Reliability", "R": false }
+        {
+          "A": "Confirmation",
+          "R": true
+        },
+        {
+          "B": "Survivorship",
+          "R": false
+        },
+        {
+          "C": "Societal",
+          "R": false
+        },
+        {
+          "D": "Selection",
+          "R": false
+        }
       ]
     },
     {
       "Q": "Which Salesforce AI capabilities should be used to enhance sales processes and customer support case routing?",
       "opciones": [
-        { "A": "Dashboard of Current Leads and Cases", "R": false },
-        { "B": "Sales path and Automation Case Escalations", "R": false },
-        { "C": "Einstein Lead Scoring and Case Classification", "R": true },
-        { "D": "Process Builder and Validation Rules", "R": false }
+        {
+          "A": "Dashboard of Current Leads and Cases",
+          "R": false
+        },
+        {
+          "B": "Sales path and Automation Case Escalations",
+          "R": false
+        },
+        {
+          "C": "Einstein Lead Scoring and Case Classification",
+          "R": true
+        },
+        {
+          "D": "Process Builder and Validation Rules",
+          "R": false
+        }
       ]
     },
     {
       "Q": "What are the key components of the data quality standard?",
       "opciones": [
-        { "A": "Naming, Formatting, Monitoring", "R": false },
-        { "B": "Accuracy, Completeness, Consistency", "R": true },
-        { "C": "Reviewing, Updating, Archiving", "R": false },
-        { "D": "Storage, Encryption, Backup", "R": false }
+        {
+          "A": "Naming, Formatting, Monitoring",
+          "R": false
+        },
+        {
+          "B": "Accuracy, Completeness, Consistency",
+          "R": true
+        },
+        {
+          "C": "Reviewing, Updating, Archiving",
+          "R": false
+        },
+        {
+          "D": "Storage, Encryption, Backup",
+          "R": false
+        }
       ]
     },
     {
       "Q": "A data quality expert wants to ensure that each new contact contains at least an email address or phone number before saving. Which feature should they use?",
       "opciones": [
-        { "A": "Autofill", "R": false },
-        { "B": "Duplicate matching rule", "R": false },
-        { "C": "Validation rule", "R": true },
-        { "D": "Assignment Rule", "R": false }
-      ]
-    },
-    {
-      "Q": "What is one effective way to achieve transparency in AI models?",
-      "opciones": [
-        { "A": "Establish an ethical and unbiased culture amongst those involved", "R": false },
-        { "B": "Communicate AI goals and objectives with those involved prior to all interactions", "R": false },
-        { "C": "Allow users to give feedback regarding the inferences the AI makes about them", "R": true },
-        { "D": "Hide model architecture behind proprietary licenses", "R": false }
+        {
+          "A": "Autofill",
+          "R": false
+        },
+        {
+          "B": "Duplicate matching rule",
+          "R": false
+        },
+        {
+          "C": "Validation rule",
+          "R": true
+        },
+        {
+          "D": "Assignment Rule",
+          "R": false
+        }
       ]
     },
     {
       "Q": "How does AI assist in lead qualification within Salesforce?",
       "opciones": [
-        { "A": "Scores leads based on customer data", "R": true },
-        { "B": "Creates personalized SMS campaigns", "R": false },
-        { "C": "Automatically interacts with prospects", "R": false },
-        { "D": "Deletes unqualified contacts", "R": false }
-      ]
-    },
-    {
-      "Q": "What is a key challenge of human-AI collaboration in decision-making processes?",
-      "opciones": [
-        { "A": "Leads to more informed and balanced decision-making", "R": false },
-        { "B": "Creates a reliance on AI, potentially leading to less critical thinking and oversight", "R": true },
-        { "C": "Reduces the need for human involvement in decision-making processes", "R": false },
-        { "D": "Increases manual database configuration steps", "R": false }
-      ]
-    },
-    {
-      "Q": "What is the main focus of the Accountability principle in Salesforce's Trusted AI Principles?",
-      "opciones": [
-        { "A": "Safeguarding fundamental human rights and protecting sensitive data", "R": false },
-        { "B": "Taking responsibility for one's actions toward customers, partners, and society", "R": true },
-        { "C": "Ensuring transparency in AI-driven recommendations and predictions", "R": false },
-        { "D": "Optimizing system database queries", "R": false }
+        {
+          "A": "Scores leads based on customer data",
+          "R": true
+        },
+        {
+          "B": "Creates personalized SMS campaigns",
+          "R": false
+        },
+        {
+          "C": "Automatically interacts with prospects",
+          "R": false
+        },
+        {
+          "D": "Deletes unqualified contacts",
+          "R": false
+        }
       ]
     },
     {
       "Q": "Which first step should a company take when starting a data quality assessment?",
       "opciones": [
-        { "A": "Plan and align territories", "R": false },
-        { "B": "Run a new report or dashboard", "R": false },
-        { "C": "Identify business objectives", "R": true },
-        { "D": "Purchase additional cloud storage", "R": false }
-      ]
-    },
-    {
-      "Q": "What is a major societal implication of excluding ethics from AI development?",
-      "opciones": [
-        { "A": "Faster and cheaper development", "R": false },
-        { "B": "More innovation and creativity", "R": false },
-        { "C": "Harm to marginalized communities", "R": true },
-        { "D": "Increased hardware reliability", "R": false }
+        {
+          "A": "Plan and align territories",
+          "R": false
+        },
+        {
+          "B": "Run a new report or dashboard",
+          "R": false
+        },
+        {
+          "C": "Identify business objectives",
+          "R": true
+        },
+        {
+          "D": "Purchase additional cloud storage",
+          "R": false
+        }
       ]
     },
     {
       "Q": "A sales manager wants to help sales representatives log their calls quicker and more accurately using AI. Which functionality provides the best solution?",
       "opciones": [
-        { "A": "Call Summaries", "R": true },
-        { "B": "Sales Dialer", "R": false },
-        { "C": "Auto-Generated Sales Tasks", "R": false },
-        { "D": "Email Templates", "R": false }
+        {
+          "A": "Call Summaries",
+          "R": true
+        },
+        {
+          "B": "Sales Dialer",
+          "R": false
+        },
+        {
+          "C": "Auto-Generated Sales Tasks",
+          "R": false
+        },
+        {
+          "D": "Email Templates",
+          "R": false
+        }
       ]
     },
     {
       "Q": "Which AI technology is described as a web of connections guided by weights and biases?",
       "opciones": [
-        { "A": "Neural networks", "R": true },
-        { "B": "Predictive Analytics", "R": false },
-        { "C": "Rules-based systems", "R": false },
-        { "D": "Decision trees", "R": false }
+        {
+          "A": "Neural networks",
+          "R": true
+        },
+        {
+          "B": "Predictive Analytics",
+          "R": false
+        },
+        {
+          "C": "Rules-based systems",
+          "R": false
+        },
+        {
+          "D": "Decision trees",
+          "R": false
+        }
       ]
     },
     {
       "Q": "Which Einstein capability uses email conversation data to create content for Knowledge articles?",
       "opciones": [
-        { "A": "Generate", "R": true },
-        { "B": "Discover", "R": false },
-        { "C": "Predict", "R": false },
-        { "D": "Transform", "R": false }
+        {
+          "A": "Generate",
+          "R": true
+        },
+        {
+          "B": "Discover",
+          "R": false
+        },
+        {
+          "C": "Predict",
+          "R": false
+        },
+        {
+          "D": "Transform",
+          "R": false
+        }
       ]
     },
     {
-      "Q": "What is an example of ethical debt in AI development?",
-      "opciones": [
-        { "A": "Violating a data privacy law and failing to pay fines", "R": false },
-        { "B": "Launching an AI feature after discovering a harmful bias", "R": true },
-        { "C": "Delaying an AI product launch to retrain an AI data model", "R": false },
-        { "D": "Upgrading to a newer version of Salesforce API", "R": false }
-      ]
-    },
-    {
-      "Q": "Which sensitive variable can easily lead to bias in AI models if handled inappropriately?",
-      "opciones": [
-        { "A": "Education level", "R": false },
-        { "B": "Country", "R": false },
-        { "C": "Gender", "R": true },
-        { "D": "Product SKU", "R": false }
-      ]
-    },
-{
       "Q": "What is the primary purpose of a Permission Set in Salesforce?",
       "opciones": [
-        { "A": "To define the baseline level of access for a user", "R": false },
-        { "B": "To grant additional permissions and access settings without changing a user's Profile", "R": true },
-        { "C": "To restrict access to specific records", "R": false },
-        { "D": "To change the organization's default language", "R": false }
+        {
+          "A": "To define the baseline level of access for a user",
+          "R": false
+        },
+        {
+          "B": "To grant additional permissions and access settings without changing a user's Profile",
+          "R": true
+        },
+        {
+          "C": "To restrict access to specific records",
+          "R": false
+        },
+        {
+          "D": "To change the organization's default language",
+          "R": false
+        }
       ]
     },
     {
       "Q": "How does the Role Hierarchy affect record access in Salesforce?",
       "opciones": [
-        { "A": "It opens up data access vertically, allowing managers to see records owned by their subordinates", "R": true },
-        { "B": "It replaces Organization-Wide Defaults (OWD)", "R": false },
-        { "C": "It determines which fields a user can edit", "R": false },
-        { "D": "It hides records from higher-level executives", "R": false }
+        {
+          "A": "It opens up data access vertically, allowing managers to see records owned by their subordinates",
+          "R": true
+        },
+        {
+          "B": "It replaces Organization-Wide Defaults (OWD)",
+          "R": false
+        },
+        {
+          "C": "It determines which fields a user can edit",
+          "R": false
+        },
+        {
+          "D": "It hides records from higher-level executives",
+          "R": false
+        }
       ]
     },
     {
       "Q": "Which tool should an administrator use to import 60,000 Lead records into Salesforce?",
       "opciones": [
-        { "A": "Data Import Wizard", "R": false },
-        { "B": "Data Loader", "R": true },
-        { "C": "Flow Builder", "R": false },
-        { "D": "AppExchange", "R": false }
+        {
+          "A": "Data Import Wizard",
+          "R": false
+        },
+        {
+          "B": "Data Loader",
+          "R": true
+        },
+        {
+          "C": "Flow Builder",
+          "R": false
+        },
+        {
+          "D": "AppExchange",
+          "R": false
+        }
       ]
     },
     {
       "Q": "Which type of relationship in Salesforce tightly links two objects, meaning that if the parent record is deleted, the child records are also deleted?",
       "opciones": [
-        { "A": "Lookup Relationship", "R": false },
-        { "B": "Master-Detail Relationship", "R": true },
-        { "C": "Many-to-Many Relationship", "R": false },
-        { "D": "Hierarchical Relationship", "R": false }
+        {
+          "A": "Lookup Relationship",
+          "R": false
+        },
+        {
+          "B": "Master-Detail Relationship",
+          "R": true
+        },
+        {
+          "C": "Many-to-Many Relationship",
+          "R": false
+        },
+        {
+          "D": "Hierarchical Relationship",
+          "R": false
+        }
       ]
     },
     {
       "Q": "What is the primary function of Record Types in Salesforce?",
       "opciones": [
-        { "A": "To assign multiple profiles to a single user", "R": false },
-        { "B": "To offer different business processes, picklist values, and page layouts to different users", "R": true },
-        { "C": "To increase the organization's data storage limits", "R": false },
-        { "D": "To automatically delete duplicate records", "R": false }
+        {
+          "A": "To assign multiple profiles to a single user",
+          "R": false
+        },
+        {
+          "B": "To offer different business processes, picklist values, and page layouts to different users",
+          "R": true
+        },
+        {
+          "C": "To increase the organization's data storage limits",
+          "R": false
+        },
+        {
+          "D": "To automatically delete duplicate records",
+          "R": false
+        }
       ]
     },
     {
       "Q": "Which feature allows users to quickly view, filter, and sort a specific subset of records directly from an object's tab?",
       "opciones": [
-        { "A": "Global Search", "R": false },
-        { "B": "List View", "R": true },
-        { "C": "Page Layout", "R": false },
-        { "D": "Setup Menu", "R": false }
+        {
+          "A": "Global Search",
+          "R": false
+        },
+        {
+          "B": "List View",
+          "R": true
+        },
+        {
+          "C": "Page Layout",
+          "R": false
+        },
+        {
+          "D": "Setup Menu",
+          "R": false
+        }
       ]
     },
     {
       "Q": "Which report format allows you to group data by both rows and columns?",
       "opciones": [
-        { "A": "Tabular Report", "R": false },
-        { "B": "Summary Report", "R": false },
-        { "C": "Matrix Report", "R": true },
-        { "D": "Joined Report", "R": false }
-      ]
-    },
-    {
-      "Q": "What is the primary difference between Generative AI and Predictive AI?",
-      "opciones": [
-        { "A": "Predictive AI creates new text, while Generative AI analyzes past data", "R": false },
-        { "B": "Generative AI creates new original content, while Predictive AI forecasts future outcomes based on historical data", "R": true },
-        { "C": "Predictive AI does not require data to function", "R": false },
-        { "D": "Generative AI is exclusively used for image recognition", "R": false }
+        {
+          "A": "Tabular Report",
+          "R": false
+        },
+        {
+          "B": "Summary Report",
+          "R": false
+        },
+        {
+          "C": "Matrix Report",
+          "R": true
+        },
+        {
+          "D": "Joined Report",
+          "R": false
+        }
       ]
     },
     {
       "Q": "What mechanism does Salesforce use to protect sensitive customer data from being retained or learned by external Large Language Models (LLMs)?",
       "opciones": [
-        { "A": "Einstein Data Loader", "R": false },
-        { "B": "Einstein Trust Layer", "R": true },
-        { "C": "Permission Sets", "R": false },
-        { "D": "Duplicate Rules", "R": false }
+        {
+          "A": "Einstein Data Loader",
+          "R": false
+        },
+        {
+          "B": "Einstein Trust Layer",
+          "R": true
+        },
+        {
+          "C": "Permission Sets",
+          "R": false
+        },
+        {
+          "D": "Duplicate Rules",
+          "R": false
+        }
       ]
     },
     {
       "Q": "Salesforce updates its platform three times a year without breaking existing custom code or configurations. What makes this possible?",
       "opciones": [
-        { "A": "Metadata-driven architecture", "R": true },
-        { "B": "On-premise physical servers", "R": false },
-        { "C": "Single-tenant architecture", "R": false },
-        { "D": "Manual code reviews by Salesforce support", "R": false }
+        {
+          "A": "Metadata-driven architecture",
+          "R": true
+        },
+        {
+          "B": "On-premise physical servers",
+          "R": false
+        },
+        {
+          "C": "Single-tenant architecture",
+          "R": false
+        },
+        {
+          "D": "Manual code reviews by Salesforce support",
+          "R": false
+        }
       ]
     },
     {
-    "Q": "What is the difference between a Lookup and a Master-Detail relationship?",
-    "opciones": [
-      { "A": "Lookup is required; Master-Detail is optional", "R": false },
-      { "B": "Master-Detail creates a tight parent-child relationship with cascade delete; Lookup is looser", "R": true },
-      { "C": "They are exactly the same", "R": false },
-      { "D": "Lookup can only be used on custom objects", "R": false }
-    ]
-  },
-  {
-    "Q": "What is the purpose of a Validation Rule?",
-    "opciones": [
-      { "A": "To automatically assign records to users", "R": false },
-      { "B": "To prevent users from saving incomplete or incorrect data", "R": true },
-      { "C": "To create new fields", "R": false },
-      { "D": "To delete duplicate records", "R": false }
-    ]
-  },
-  {
-    "Q": "Which feature helps prevent or merge duplicate records?",
-    "opciones": [
-      { "A": "Validation Rules", "R": false },
-      { "B": "Duplicate Management (Matching Rules + Duplicate Rules)", "R": true },
-      { "C": "Workflow Rules", "R": false },
-      { "D": "Assignment Rules", "R": false }
-    ]
-  },
-  {
-    "Q": "What is a Page Layout used for?",
-    "opciones": [
-      { "A": "To control which fields, related lists, and buttons users see on a record", "R": true },
-      { "B": "To define user permissions", "R": false },
-      { "C": "To create reports", "R": false },
-      { "D": "To manage licenses", "R": false }
-    ]
-  },
-  {
-    "Q": "What is the difference between Standard and Custom objects?",
-    "opciones": [
-      { "A": "Standard objects are created by the customer; Custom objects come with Salesforce", "R": false },
-      { "B": "Standard objects come with Salesforce (Account, Contact, etc.); Custom objects are created by the organization", "R": true },
-      { "C": "There is no difference", "R": false },
-      { "D": "Custom objects cannot have relationships", "R": false }
-    ]
-  },
-  {
-    "Q": "Which tool is recommended for importing less than 50,000 records?",
-    "opciones": [
-      { "A": "Data Loader", "R": false },
-      { "B": "Data Import Wizard", "R": true },
-      { "C": "Workbench", "R": false },
-      { "D": "Apex Data Loader only", "R": false }
-    ]
-  },
-  {
-    "Q": "What does a Formula field do?",
-    "opciones": [
-      { "A": "Allows users to type free text", "R": false },
-      { "B": "Automatically calculates a value based on other fields or expressions", "R": true },
-      { "C": "Stores files and attachments", "R": false },
-      { "D": "Creates a picklist of options", "R": false }
-    ]
-  },
-  {
-    "Q": "What is Lightning Experience?",
-    "opciones": [
-      { "A": "The classic Salesforce interface", "R": false },
-      { "B": "The modern Salesforce user interface", "R": true },
-      { "C": "A type of report", "R": false },
-      { "D": "A mobile-only app", "R": false }
-    ]
-  },
-  {
-    "Q": "What is the purpose of the App Launcher?",
-    "opciones": [
-      { "A": "To search for records globally", "R": false },
-      { "B": "To access different apps and items in Salesforce", "R": true },
-      { "C": "To create new users", "R": false },
-      { "D": "To manage permissions", "R": false }
-    ]
-  },
-  {
-    "Q": "Which feature shows the stages of a sales process visually on an Opportunity?",
-    "opciones": [
-      { "A": "Path", "R": true },
-      { "B": "Kanban only", "R": false },
-      { "C": "List View", "R": false },
-      { "D": "Dashboard", "R": false }
-    ]
-  },
-  {
-    "Q": "Which Salesforce feature can automatically score leads based on how likely they are to convert?",
-    "opciones": [
-      { "A": "Einstein Lead Scoring", "R": true },
-      { "B": "Assignment Rules", "R": false },
-      { "C": "Validation Rules", "R": false },
-      { "D": "Duplicate Rules", "R": false }
-    ]
-  }
+      "Q": "What is the difference between a Lookup and a Master-Detail relationship?",
+      "opciones": [
+        {
+          "A": "Lookup is required; Master-Detail is optional",
+          "R": false
+        },
+        {
+          "B": "Master-Detail creates a tight parent-child relationship with cascade delete; Lookup is looser",
+          "R": true
+        },
+        {
+          "C": "They are exactly the same",
+          "R": false
+        },
+        {
+          "D": "Lookup can only be used on custom objects",
+          "R": false
+        }
+      ]
+    },
+    {
+      "Q": "What is the purpose of a Validation Rule?",
+      "opciones": [
+        {
+          "A": "To automatically assign records to users",
+          "R": false
+        },
+        {
+          "B": "To prevent users from saving incomplete or incorrect data",
+          "R": true
+        },
+        {
+          "C": "To create new fields",
+          "R": false
+        },
+        {
+          "D": "To delete duplicate records",
+          "R": false
+        }
+      ]
+    },
+    {
+      "Q": "Which feature helps prevent or merge duplicate records?",
+      "opciones": [
+        {
+          "A": "Validation Rules",
+          "R": false
+        },
+        {
+          "B": "Duplicate Management (Matching Rules + Duplicate Rules)",
+          "R": true
+        },
+        {
+          "C": "Workflow Rules",
+          "R": false
+        },
+        {
+          "D": "Assignment Rules",
+          "R": false
+        }
+      ]
+    },
+    {
+      "Q": "What is a Page Layout used for?",
+      "opciones": [
+        {
+          "A": "To control which fields, related lists, and buttons users see on a record",
+          "R": true
+        },
+        {
+          "B": "To define user permissions",
+          "R": false
+        },
+        {
+          "C": "To create reports",
+          "R": false
+        },
+        {
+          "D": "To manage licenses",
+          "R": false
+        }
+      ]
+    },
+    {
+      "Q": "What is the difference between Standard and Custom objects?",
+      "opciones": [
+        {
+          "A": "Standard objects are created by the customer; Custom objects come with Salesforce",
+          "R": false
+        },
+        {
+          "B": "Standard objects come with Salesforce (Account, Contact, etc.); Custom objects are created by the organization",
+          "R": true
+        },
+        {
+          "C": "There is no difference",
+          "R": false
+        },
+        {
+          "D": "Custom objects cannot have relationships",
+          "R": false
+        }
+      ]
+    },
+    {
+      "Q": "Which tool is recommended for importing less than 50,000 records?",
+      "opciones": [
+        {
+          "A": "Data Loader",
+          "R": false
+        },
+        {
+          "B": "Data Import Wizard",
+          "R": true
+        },
+        {
+          "C": "Workbench",
+          "R": false
+        },
+        {
+          "D": "Apex Data Loader only",
+          "R": false
+        }
+      ]
+    },
+    {
+      "Q": "What does a Formula field do?",
+      "opciones": [
+        {
+          "A": "Allows users to type free text",
+          "R": false
+        },
+        {
+          "B": "Automatically calculates a value based on other fields or expressions",
+          "R": true
+        },
+        {
+          "C": "Stores files and attachments",
+          "R": false
+        },
+        {
+          "D": "Creates a picklist of options",
+          "R": false
+        }
+      ]
+    },
+    {
+      "Q": "What is Lightning Experience?",
+      "opciones": [
+        {
+          "A": "The classic Salesforce interface",
+          "R": false
+        },
+        {
+          "B": "The modern Salesforce user interface",
+          "R": true
+        },
+        {
+          "C": "A type of report",
+          "R": false
+        },
+        {
+          "D": "A mobile-only app",
+          "R": false
+        }
+      ]
+    },
+    {
+      "Q": "What is the purpose of the App Launcher?",
+      "opciones": [
+        {
+          "A": "To search for records globally",
+          "R": false
+        },
+        {
+          "B": "To access different apps and items in Salesforce",
+          "R": true
+        },
+        {
+          "C": "To create new users",
+          "R": false
+        },
+        {
+          "D": "To manage permissions",
+          "R": false
+        }
+      ]
+    },
+    {
+      "Q": "Which feature shows the stages of a sales process visually on an Opportunity?",
+      "opciones": [
+        {
+          "A": "Path",
+          "R": true
+        },
+        {
+          "B": "Kanban only",
+          "R": false
+        },
+        {
+          "C": "List View",
+          "R": false
+        },
+        {
+          "D": "Dashboard",
+          "R": false
+        }
+      ]
+    },
+    {
+      "Q": "Which Salesforce feature can automatically score leads based on how likely they are to convert?",
+      "opciones": [
+        {
+          "A": "Einstein Lead Scoring",
+          "R": true
+        },
+        {
+          "B": "Assignment Rules",
+          "R": false
+        },
+        {
+          "C": "Validation Rules",
+          "R": false
+        },
+        {
+          "D": "Duplicate Rules",
+          "R": false
+        }
+      ]
+    },
+    {
+      "Q": "What is the fun way to learn Salesforce and win prizes?",
+      "opciones": [
+        {
+          "A": "Trailmix",
+          "R": false
+        },
+        {
+          "B": "Trailhead Quests",
+          "R": true
+        },
+        {
+          "C": "Trailhead Playground",
+          "R": false
+        },
+        {
+          "D": "Trailblazer Community",
+          "R": false
+        }
+      ]
+    },
+    {
+      "Q": "Where can you practice your Salesforce skills within Trailhead?",
+      "opciones": [
+        {
+          "A": "Developer org",
+          "R": false
+        },
+        {
+          "B": "Trailhead Quests",
+          "R": false
+        },
+        {
+          "C": "Trailhead Playground",
+          "R": true
+        },
+        {
+          "D": "Trailmix",
+          "R": false
+        }
+      ]
+    },
+    {
+      "Q": "What is the biggest Salesforce event?",
+      "opciones": [
+        {
+          "A": "Apex Hours",
+          "R": false
+        },
+        {
+          "B": "Dreamforce",
+          "R": true
+        },
+        {
+          "C": "TrailblazerDX",
+          "R": false
+        },
+        {
+          "D": "World Tour",
+          "R": false
+        }
+      ]
+    },
+    {
+      "Q": "How do you change a user's email signature?",
+      "opciones": [
+        {
+          "A": "User Settings → My Personal Information → My Email Settings",
+          "R": true
+        },
+        {
+          "B": "Update Email Template",
+          "R": false
+        },
+        {
+          "C": "Setup → Organization-Wide Email Addresses",
+          "R": false
+        },
+        {
+          "D": "Setup → Email Deliverability",
+          "R": false
+        }
+      ]
+    },
+    {
+      "Q": "How do you free up one user license in Salesforce?",
+      "opciones": [
+        {
+          "A": "Delete a user",
+          "R": false
+        },
+        {
+          "B": "Deactivate a user",
+          "R": true
+        },
+        {
+          "C": "Freeze a user",
+          "R": false
+        },
+        {
+          "D": "Change the user's profile",
+          "R": false
+        }
+      ]
+    },
+    {
+      "Q": "Can you delete a user in Salesforce?",
+      "opciones": [
+        {
+          "A": "Yes",
+          "R": false
+        },
+        {
+          "B": "No",
+          "R": true
+        },
+        {
+          "C": "Only System Administrators can",
+          "R": false
+        },
+        {
+          "D": "Only if the user has no records",
+          "R": false
+        }
+      ]
+    },
+    {
+      "Q": "Where can you see all custom and standard objects available in Salesforce?",
+      "opciones": [
+        {
+          "A": "Object Manager",
+          "R": true
+        },
+        {
+          "B": "App Launcher",
+          "R": false
+        },
+        {
+          "C": "Schema Builder",
+          "R": false
+        },
+        {
+          "D": "Setup Home",
+          "R": false
+        }
+      ]
+    },
+    {
+      "Q": "How can you debug Salesforce code or bugs?",
+      "opciones": [
+        {
+          "A": "Developer Console",
+          "R": true
+        },
+        {
+          "B": "Setup Audit Trail",
+          "R": false
+        },
+        {
+          "C": "Report Builder",
+          "R": false
+        },
+        {
+          "D": "Object Manager",
+          "R": false
+        }
+      ]
+    },
+    {
+      "Q": "Which tool enforces restrictions on record creation, like making a field required?",
+      "opciones": [
+        {
+          "A": "Validation Rules",
+          "R": true
+        },
+        {
+          "B": "Workflow Rules",
+          "R": false
+        },
+        {
+          "C": "Approval Process",
+          "R": false
+        },
+        {
+          "D": "Flow",
+          "R": false
+        }
+      ]
+    },
+    {
+      "Q": "How do you show a visual summary view on a list view?",
+      "opciones": [
+        {
+          "A": "Kanban View",
+          "R": true
+        },
+        {
+          "B": "Chart View",
+          "R": false
+        },
+        {
+          "C": "Split View",
+          "R": false
+        },
+        {
+          "D": "Table View",
+          "R": false
+        }
+      ]
+    },
+    {
+      "Q": "How can you make a field required for only one process?",
+      "opciones": [
+        {
+          "A": "Make the field required on the Page Layout",
+          "R": true
+        },
+        {
+          "B": "Make the field required at the object level",
+          "R": false
+        },
+        {
+          "C": "Create a Validation Rule",
+          "R": false
+        },
+        {
+          "D": "Create a Duplicate Rule",
+          "R": false
+        }
+      ]
+    },
+    {
+      "Q": "If you delete an Account record, which related record is automatically deleted?",
+      "opciones": [
+        {
+          "A": "Opportunity",
+          "R": true
+        },
+        {
+          "B": "Case",
+          "R": false
+        },
+        {
+          "C": "Lead",
+          "R": false
+        },
+        {
+          "D": "Campaign",
+          "R": false
+        }
+      ]
+    },
+    {
+      "Q": "Which object can you use for taking customer feedback?",
+      "opciones": [
+        {
+          "A": "Case",
+          "R": true
+        },
+        {
+          "B": "Lead",
+          "R": false
+        },
+        {
+          "C": "Opportunity",
+          "R": false
+        },
+        {
+          "D": "Campaign",
+          "R": false
+        }
+      ]
+    },
+    {
+      "Q": "How can a manager get an email of report data?",
+      "opciones": [
+        {
+          "A": "Subscribe to the report",
+          "R": true
+        },
+        {
+          "B": "Export the report",
+          "R": false
+        },
+        {
+          "C": "Print the report",
+          "R": false
+        },
+        {
+          "D": "Share the report link",
+          "R": false
+        }
+      ]
+    },
+    {
+      "Q": "How many rows can be displayed in a report?",
+      "opciones": [
+        {
+          "A": "500",
+          "R": false
+        },
+        {
+          "B": "1000",
+          "R": false
+        },
+        {
+          "C": "2000",
+          "R": true
+        },
+        {
+          "D": "5000",
+          "R": false
+        }
+      ]
+    },
+    {
+      "Q": "How many reports and dashboards can one subscribe to?",
+      "opciones": [
+        {
+          "A": "5",
+          "R": false
+        },
+        {
+          "B": "7",
+          "R": true
+        },
+        {
+          "C": "10",
+          "R": false
+        },
+        {
+          "D": "15",
+          "R": false
+        }
+      ]
+    },
+    {
+      "Q": "Which file formats are supported for Salesforce report export?",
+      "opciones": [
+        {
+          "A": ".CSV and .XLS",
+          "R": true
+        },
+        {
+          "B": ".PDF only",
+          "R": false
+        },
+        {
+          "C": ".DOCX",
+          "R": false
+        },
+        {
+          "D": ".JSON",
+          "R": false
+        }
+      ]
+    },
+    {
+      "Q": "How do you get updated data on a Dashboard?",
+      "opciones": [
+        {
+          "A": "Refresh the Dashboard",
+          "R": true
+        },
+        {
+          "B": "Reload the page",
+          "R": false
+        },
+        {
+          "C": "Clear the cache",
+          "R": false
+        },
+        {
+          "D": "Log out and log back in",
+          "R": false
+        }
+      ]
+    },
+    {
+      "Q": "What is the purpose of the Trailblazer Community?",
+      "opciones": [
+        {
+          "A": "To purchase Salesforce licenses",
+          "R": false
+        },
+        {
+          "B": "To connect with other Salesforce users, share knowledge, and learn",
+          "R": true
+        },
+        {
+          "C": "To replace Salesforce Setup",
+          "R": false
+        },
+        {
+          "D": "To create production databases",
+          "R": false
+        }
+      ]
+    },
+    {
+      "Q": "Which Salesforce role typically focuses on configuring and managing Salesforce without primarily writing code?",
+      "opciones": [
+        {
+          "A": "Salesforce Administrator",
+          "R": true
+        },
+        {
+          "B": "Salesforce Developer",
+          "R": false
+        },
+        {
+          "C": "Sales Representative",
+          "R": false
+        },
+        {
+          "D": "Data Scientist",
+          "R": false
+        }
+      ]
+    },
+    {
+      "Q": "Which role is primarily responsible for translating business requirements into Salesforce solutions and advising on implementation?",
+      "opciones": [
+        {
+          "A": "Salesforce Consultant",
+          "R": true
+        },
+        {
+          "B": "End User",
+          "R": false
+        },
+        {
+          "C": "Sales Representative",
+          "R": false
+        },
+        {
+          "D": "System Auditor",
+          "R": false
+        }
+      ]
+    },
+    {
+      "Q": "Which Salesforce product is designed to provide branded digital experiences such as customer or partner portals?",
+      "opciones": [
+        {
+          "A": "Experience Cloud",
+          "R": true
+        },
+        {
+          "B": "Commerce Cloud",
+          "R": false
+        },
+        {
+          "C": "Sales Cloud",
+          "R": false
+        },
+        {
+          "D": "Data Loader",
+          "R": false
+        }
+      ]
+    },
+    {
+      "Q": "A company wants employees to use AI agents to help automate customer interactions and business tasks. Which Salesforce offering is most relevant?",
+      "opciones": [
+        {
+          "A": "Agentforce",
+          "R": true
+        },
+        {
+          "B": "App Launcher",
+          "R": false
+        },
+        {
+          "C": "Schema Builder",
+          "R": false
+        },
+        {
+          "D": "Data Import Wizard",
+          "R": false
+        }
+      ]
+    },
+    {
+      "Q": "What is the main difference between a Salesforce Production environment and a Sandbox?",
+      "opciones": [
+        {
+          "A": "Production is the live environment, while a Sandbox is used for development, testing, or training",
+          "R": true
+        },
+        {
+          "B": "Production is only for developers, while Sandboxes are for customers",
+          "R": false
+        },
+        {
+          "C": "Sandboxes cannot contain metadata",
+          "R": false
+        },
+        {
+          "D": "Production cannot contain customizations",
+          "R": false
+        }
+      ]
+    },
+    {
+      "Q": "Where does an administrator go to configure many Salesforce organization settings and features?",
+      "opciones": [
+        {
+          "A": "Setup",
+          "R": true
+        },
+        {
+          "B": "App Launcher",
+          "R": false
+        },
+        {
+          "C": "List View",
+          "R": false
+        },
+        {
+          "D": "Report Builder",
+          "R": false
+        }
+      ]
+    },
+    {
+      "Q": "What is the main purpose of the Quick Find box in Setup?",
+      "opciones": [
+        {
+          "A": "To quickly locate setup pages and configuration settings",
+          "R": true
+        },
+        {
+          "B": "To search customer records",
+          "R": false
+        },
+        {
+          "C": "To create reports",
+          "R": false
+        },
+        {
+          "D": "To import data",
+          "R": false
+        }
+      ]
+    },
+    {
+      "Q": "What is the main purpose of the Lightning App Builder?",
+      "opciones": [
+        {
+          "A": "To create and customize Lightning pages using a visual interface",
+          "R": true
+        },
+        {
+          "B": "To write Apex classes",
+          "R": false
+        },
+        {
+          "C": "To import thousands of records",
+          "R": false
+        },
+        {
+          "D": "To manage Salesforce licenses",
+          "R": false
+        }
+      ]
+    },
+    {
+      "Q": "What is Schema Builder primarily used for?",
+      "opciones": [
+        {
+          "A": "To visualize objects, fields, and relationships in the data model",
+          "R": true
+        },
+        {
+          "B": "To create dashboards",
+          "R": false
+        },
+        {
+          "C": "To manage user passwords",
+          "R": false
+        },
+        {
+          "D": "To send email campaigns",
+          "R": false
+        }
+      ]
+    },
+    {
+      "Q": "Which relationship normally connects Contacts to the Account they work for?",
+      "opciones": [
+        {
+          "A": "The Contact is related to an Account",
+          "R": true
+        },
+        {
+          "B": "The Contact is always related to a Lead",
+          "R": false
+        },
+        {
+          "C": "The Contact is always related to an Opportunity only",
+          "R": false
+        },
+        {
+          "D": "The Contact cannot be related to an Account",
+          "R": false
+        }
+      ]
+    },
+    {
+      "Q": "What is the typical relationship between an Opportunity and an Account?",
+      "opciones": [
+        {
+          "A": "An Opportunity is associated with an Account representing the customer or prospect",
+          "R": true
+        },
+        {
+          "B": "An Opportunity can only belong to a Lead",
+          "R": false
+        },
+        {
+          "C": "An Opportunity replaces the Account",
+          "R": false
+        },
+        {
+          "D": "An Opportunity cannot be related to an Account",
+          "R": false
+        }
+      ]
+    },
+    {
+      "Q": "Which statement best describes the relationship between a Case and a customer?",
+      "opciones": [
+        {
+          "A": "A Case can be associated with an Account and, when applicable, a Contact",
+          "R": true
+        },
+        {
+          "B": "A Case can only be associated with a Lead",
+          "R": false
+        },
+        {
+          "C": "A Case must always be associated with an Opportunity",
+          "R": false
+        },
+        {
+          "D": "A Case cannot be related to customer records",
+          "R": false
+        }
+      ]
+    },
+    {
+      "Q": "Which field type is most appropriate for storing a monetary amount such as an Opportunity value?",
+      "opciones": [
+        {
+          "A": "Currency",
+          "R": true
+        },
+        {
+          "B": "Checkbox",
+          "R": false
+        },
+        {
+          "C": "Date",
+          "R": false
+        },
+        {
+          "D": "Text Area",
+          "R": false
+        }
+      ]
+    },
+    {
+      "Q": "What is the purpose of a default field value?",
+      "opciones": [
+        {
+          "A": "To automatically populate a field with a predefined value when a record is created",
+          "R": true
+        },
+        {
+          "B": "To prevent all users from editing the record",
+          "R": false
+        },
+        {
+          "C": "To delete duplicate records",
+          "R": false
+        },
+        {
+          "D": "To convert Leads",
+          "R": false
+        }
+      ]
+    },
+    {
+      "Q": "What is the main purpose of a Sharing Rule?",
+      "opciones": [
+        {
+          "A": "To automatically extend record access to users or groups when the organization-wide default is more restrictive",
+          "R": true
+        },
+        {
+          "B": "To define which fields exist on an object",
+          "R": false
+        },
+        {
+          "C": "To create validation formulas",
+          "R": false
+        },
+        {
+          "D": "To assign licenses to users",
+          "R": false
+        }
+      ]
+    },
+    {
+      "Q": "A manager needs access to records owned by members of their team. Which Salesforce feature can provide access through the organizational hierarchy?",
+      "opciones": [
+        {
+          "A": "Role Hierarchy",
+          "R": true
+        },
+        {
+          "B": "Page Layout",
+          "R": false
+        },
+        {
+          "C": "Picklist",
+          "R": false
+        },
+        {
+          "D": "Formula Field",
+          "R": false
+        }
+      ]
+    },
+    {
+      "Q": "What is the difference between a Profile and a Permission Set?",
+      "opciones": [
+        {
+          "A": "A Profile provides baseline permissions, while Permission Sets can grant additional permissions",
+          "R": true
+        },
+        {
+          "B": "A Profile controls reports only, while Permission Sets control dashboards only",
+          "R": false
+        },
+        {
+          "C": "Permission Sets replace Organization-Wide Defaults",
+          "R": false
+        },
+        {
+          "D": "Profiles are only used for data import",
+          "R": false
+        }
+      ]
+    },
+    {
+      "Q": "A company wants users in different departments to see different picklist values and use different business processes for the same object. Which feature should be considered?",
+      "opciones": [
+        {
+          "A": "Record Types",
+          "R": true
+        },
+        {
+          "B": "Duplicate Rules",
+          "R": false
+        },
+        {
+          "C": "Sharing Rules",
+          "R": false
+        },
+        {
+          "D": "List Views",
+          "R": false
+        }
+      ]
+    },
+    {
+      "Q": "What is the key difference between a Page Layout and a Record Type?",
+      "opciones": [
+        {
+          "A": "A Page Layout controls the record interface, while a Record Type can determine business processes and available picklist values",
+          "R": true
+        },
+        {
+          "B": "A Record Type controls passwords, while a Page Layout controls licenses",
+          "R": false
+        },
+        {
+          "C": "They are exactly the same feature",
+          "R": false
+        },
+        {
+          "D": "A Page Layout is only used for reports",
+          "R": false
+        }
+      ]
+    },
+    {
+      "Q": "A user needs access to a record that they do not own and that is not shared through the role hierarchy. Which type of feature can be used to extend record-level access?",
+      "opciones": [
+        {
+          "A": "Sharing Rules",
+          "R": true
+        },
+        {
+          "B": "Formula Fields",
+          "R": false
+        },
+        {
+          "C": "Page Layouts",
+          "R": false
+        },
+        {
+          "D": "Record Types",
+          "R": false
+        }
+      ]
+    },
+    {
+      "Q": "What does a report filter allow a user to do?",
+      "opciones": [
+        {
+          "A": "Limit the records included in a report based on specified criteria",
+          "R": true
+        },
+        {
+          "B": "Change a user's permissions",
+          "R": false
+        },
+        {
+          "C": "Create a new Salesforce object",
+          "R": false
+        },
+        {
+          "D": "Modify the Organization-Wide Defaults",
+          "R": false
+        }
+      ]
+    },
+    {
+      "Q": "What is the relationship between a Dashboard and its source reports?",
+      "opciones": [
+        {
+          "A": "Dashboard components use report data to present information visually",
+          "R": true
+        },
+        {
+          "B": "Dashboards store unrelated data independently of reports",
+          "R": false
+        },
+        {
+          "C": "Reports are created from dashboard components",
+          "R": false
+        },
+        {
+          "D": "Dashboards cannot use reports as sources",
+          "R": false
+        }
+      ]
+    },
+    {
+      "Q": "A sales manager wants to see the number of Opportunities grouped by sales stage and compare the totals. Which report capability is most useful?",
+      "opciones": [
+        {
+          "A": "Grouping records",
+          "R": true
+        },
+        {
+          "B": "Changing the user's Profile",
+          "R": false
+        },
+        {
+          "C": "Creating a Permission Set",
+          "R": false
+        },
+        {
+          "D": "Changing the object label",
+          "R": false
+        }
+      ]
+    }
   ]
 ]
